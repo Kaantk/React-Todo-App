@@ -1,0 +1,28 @@
+ul {
+    list-style: none;
+    margin-top: 1em;
+    width: 85%;
+}
+
+ul > li {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+#deleteTask {
+    background-color: #ff7474;
+    border: none;
+    outline: none;
+    border-radius: 0.5em;
+    font-size: 12px;
+    padding: 0.25em;
+    font-weight: 500;
+    max-height: 24px;
+}
+
+.task {
+    max-width: 80%;
+    word-wrap: break-word;
+}
